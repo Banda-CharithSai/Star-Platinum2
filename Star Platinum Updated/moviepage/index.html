@@ -1,0 +1,287 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homepage.css"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">STAR PLATINUM</div>
+        <label for="btn" class="icon">
+          <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+          <li><a href="/homepage/homepage.html">Home</a></li>
+          <li>
+            <label for="btn-1" class="show">Movies +</label>
+            <a href="#">Movies</a>
+            <input type="checkbox" id="btn-1">
+            <ul>
+              <li><a href="#tamil">Tamil</a></li>
+              <li><a href="#malayalam">Malayalam</a></li>
+              <li><a href="#english">English</a></li>
+            </ul>
+          </li>
+          <li>
+            <label for="btn-2" class="show">Services +</label>
+            <a href="#">Series</a>
+            <input type="checkbox" id="btn-2">
+            <ul>
+              <li><a href="#anime">Anime</a></li>
+              <li><a href="#live">Live-action</a></li>
+              <li>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/loginpage/index.html">Login</a></li>
+          <li><a href="/about_us/aboutus.html">About us</a></li>
+          <li><div class="toggle">
+            <i class="fas fa-moon toggle-icon"></i>
+            <i class="fas fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+        </div></li>
+        </ul>
+       
+      </nav>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background:linear-gradient(to bottom,  rgba(0,0,0,0), #151515), url('img/tenet.jpg');">
+                <!-- <div id="videosList">       
+                    <div class="video">
+                        <video class="thevideo" loop preload="none">
+                          <source src="/img/bgclip.mkv" type="video/mkv" >
+                        </video>
+                      </div>
+                    </div> -->
+                    <!-- <h1 class="featured-title1">TENET</h1> -->
+                <img class="featured-title" src="img/tenet1.png" alt="">
+                <p class="featured-desc">When a few objects that can be manipulated and used as weapons in the future 
+                    fall into the wrong hands, a CIA operative, known as the Protagonist, must save the world.<br></p>
+                    <video src="tenet.mkv" class="vid" autoplay muted loop></video>
+                    <button class="featured-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        WATCH</button>
+                
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">UPCOMING MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.png" alt="">
+                            <span class="movie-list-item-title">Venom 2</span>
+                            <p class="movie-list-item-desc">Venom: Let There Be Carnage is an upcoming American superhero film featuring the Marvel Comics
+                                 character Venom, produced by Columbia Pictures in association with Marvel and Tencent Pictures</p>
+                            <button class="movie-list-item-button">Add to watchlist</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/whatif.png" alt="">
+                            <span class="movie-list-item-title">What If...?</span>
+                            <p class="movie-list-item-desc">What If...? is an upcoming American animated anthology series created by A.C. Bradley for the streaming 
+                                service Disney+,based on the Marvel Comics series.</p>
+                            <button class="movie-list-item-button">Add to watchlist</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/omitb.png" alt="">
+                            <span class="movie-list-item-title">OMITB</span>
+                            <p class="movie-list-item-desc">Only Murders in the Building is an upcoming American comedy television series, created by Steve Martin and John Hoffman. 
+                                </p>
+                            <button class="movie-list-item-button">Add to watchlist</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/hall.png" alt="">
+                            <span class="movie-list-item-title">Halloween Kills</span>
+                            <p class="movie-list-item-desc">Halloween Kills is an upcoming American slasher film directed by David Gordon Green and written by Green, 
+                                Danny McBride and Scott Teems.</p>
+                            <button class="movie-list-item-button">Add to watchlist</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/mav.png" alt="">
+                            <span class="movie-list-item-title">Top Gun</span>
+                            <p class="movie-list-item-desc">Top Gun: Maverick is an upcoming American action drama film directed by Joseph Kosinski from a screenplay
+                                 by Ehren Kruger, a story by Peter Craig and Justin Marks</p>
+                            <button class="movie-list-item-button">Add to watchlist</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/saint.png" alt="">
+                            <span class="movie-list-item-title">TMSON</span>
+                            <p class="movie-list-item-desc">The Many Saints of Newark is an upcoming American crime drama film 
+                                directed by Alan Taylor as a prequel to Chase's HBO crime drama series The Sopranos.</p>
+                            <button class="movie-list-item-button">Add to watchlist</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/spide.png" alt="">
+                            <span class="movie-list-item-title">Spiderman</span>
+                            <p class="movie-list-item-desc">Spider-Man: No Way Home is an upcoming American superhero film based on the Marvel Comics character Spider-Man, 
+                               and distributed by Sony Pictures Releasing. </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="tamil">TAMIL MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/t2post.jpg" alt="">
+                            <span class="movie-list-item-title">Sadhuranga vettai</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/TamMov2/SV.html">Watch</button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/t1post.jpg" alt="">
+                            <span class="movie-list-item-title">INN</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/TamMov1/indru netru naalai.html" >Watch</button></a>
+                        </div>
+                    
+                        
+                    </div>
+                    <!-- <i class="fas fa-chevron-right arrow"></i> -->
+                </div>
+            </div>
+            
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="english">ENGLISH MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/e1post.jpg" alt="">
+                            <span class="movie-list-item-title">ANTMAN</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/EngMov1/ant man.html">Watch</button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/e2post.jpg" alt="">
+                            <span class="movie-list-item-title">21JS</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/EngMov2/21jumpstreet.html">Watch</button></a>
+                        </div>
+                        
+                    </div>
+                    <!-- <i class="fas fa-chevron-right arrow"></i> -->
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="malayalam">MALAYALAM MOVIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ezra_poster.jpeg" alt="">
+                            <span class="movie-list-item-title">Ezra</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/MalMov3/ezra.html">Watch</button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/angamali_poster.jpeg" alt="">
+                            <span class="movie-list-item-title">Angamali</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/MalMov1/angamali_diaries.html">Watch</button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/odiyan_poster.jpeg" alt="">
+                            <span class="movie-list-item-title">Odiyan</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/MalMov2/odiyan.html">Watch</button></a>
+                        </div>
+                    </div>
+                    <!-- <i class="fas fa-chevron-right arrow"></i> -->
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title1" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">When two children go missing in a small German town, its sinful past is exposed along with the double lives and fractured 
+                    relationships that exist among four families as they search for the kids.</p>
+                    <video src="dark.mp4" class="vid" autoplay muted loop></video>
+                <button class="featured-button"><span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="anime">ANIME</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/jujutsu kaisen.png" alt="">
+                            <span class="movie-list-item-title">JJK</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/Ani1/jujutsukaisen.html">Watch</button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/demon slayer.jpg" alt="">
+                            <span class="movie-list-item-title">Demon slayer</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/Ani2/demonslayer.html">Watch</button></a>
+                        </div>
+                    </div>
+                    <!-- <i class="fas fa-chevron-right arrow"></i> -->
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="live">LIVE-ACTION</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/s1post.jpeg" alt="">
+                            <span class="movie-list-item-title">Breaking Bad</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/Ser1/Breakingbad.html">Watch</button></a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/s2post.jpg" alt="">
+                            <span class="movie-list-item-title">Money Heist</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button"><a href="/moviepage/innermost/html/Ser2/moneyheist.html">Watch</button></a>
+                        </div>
+                        
+                    </div>
+                    <!-- <i class="fas fa-chevron-right arrow"></i> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script>
+        var figure = $(".video").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
+}
+</script>
+</body>
+
+</html>
